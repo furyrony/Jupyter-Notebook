@@ -1,0 +1,15 @@
+pos=0
+def search(list,n):
+    pos=0
+    for i in range(len(list)):
+        if list[i]==n:
+            globals()['pos']=i
+            return True
+        i+=1
+    return False
+a=[5,4,7,8,3,6]
+n=8
+if search(a,n):
+    print("Found at: ",pos+1)
+else: 
+    print("Not Found")
