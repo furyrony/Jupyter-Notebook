@@ -8,7 +8,7 @@ def search(list,n):
         i+=1
     return False
 a=[5,4,7,8,3,6]
-n=8
+n=3
 if search(a,n):
     print("Found at: ",pos+1)
 else: 
